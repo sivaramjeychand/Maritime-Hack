@@ -25,10 +25,6 @@ dependencies:
   # PyTorch (GPU-compatible build)
   - pytorch>=2.0.0
 
-  # TensorFlow (GPU-compatible)
-  # If you prefer explicit GPU builds on older TF versions, try "tensorflow-gpu".
-  - tensorflow>=2.12.0
-
   # ---------- Miscellaneous Helpful Tools ----------
   - tqdm>=4.64.0
   - sentencepiece>=0.1.97
@@ -45,3 +41,4 @@ dependencies:
       - transformers>=4.28.0
       # Google BERT library (if you need it)
       - bert>=2.2.0
+      - tensorflow>=2.12.0
