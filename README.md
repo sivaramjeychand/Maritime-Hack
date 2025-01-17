@@ -1,9 +1,9 @@
 # Maritime-Hack
 2025 Maritime Hack Repo for Atul, Siva and Deepan
 
-# To install & activate the mlvenv
-Navigate to mlvenv and type the following command:
-`pip install -r requirements.txt`
+# Conda Environment Instructions
+To install: `conda env create -f environment.yml`
+To check if installed: `conda env list`
+To activate: `conda activate maritime_env`
+To deactivate: `conda deactivate maritime_env`
 
-To activate, navigate to mlvenv/Scripts and type the following command:
-`activate`
